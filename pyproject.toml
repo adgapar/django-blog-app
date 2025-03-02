@@ -32,6 +32,7 @@ select = [
     "TCH", # flake8-type-checking
     "RUF", # Ruff-specific rules
 ]
+ignore = ["RUF012"]  # Ignore mutable class attributes warning
 
 # Allow autofix for all enabled rules
 fixable = ["ALL"]
